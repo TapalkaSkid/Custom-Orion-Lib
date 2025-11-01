@@ -18,22 +18,12 @@ local OrionLib = {
 			Divider = Color3.fromRGB(60, 60, 60),
 			Text = Color3.fromRGB(240, 240, 240),
 			TextDark = Color3.fromRGB(150, 150, 150)
-		},
-		DarkBlue = {
-			Main = Color3.fromRGB(20, 25, 30),
-			Second = Color3.fromRGB(30, 35, 40),
-			Stroke = Color3.fromRGB(35, 35, 35),
-			Divider = Color3.fromRGB(107, 107, 116),
-			Text = Color3.fromRGB(230, 230, 230),
-			TextDark = Color3.fromRGB(107, 107, 116)
 		}
 	},
 	SelectedTheme = "Default",
 	Folder = nil,
 	SaveCfg = false
 }
-
---warn("\nOrion Library (Modified by locality) - Loading")
 
 local function GetIcon(IconName)
  	return nil
